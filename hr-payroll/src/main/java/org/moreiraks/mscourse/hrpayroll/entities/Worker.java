@@ -1,8 +1,6 @@
 package org.moreiraks.mscourse.hrpayroll.entities;
 
-
 import java.io.Serializable;
-
 
 public class Worker implements Serializable{
   private static final long serialVersionUID=1l;
@@ -14,12 +12,6 @@ public class Worker implements Serializable{
   public Worker() {
   }
   
-
-  public Worker(String name, Double dailyIncome) {
-    this.name = name;
-    this.dailyIncome = dailyIncome;
-  }
-
   public static long getSerialversionuid() {
     return serialVersionUID;
   }
@@ -40,8 +32,5 @@ public class Worker implements Serializable{
   }
   public void setDailyIncome(Double dailyIncome) {
     this.dailyIncome = dailyIncome;
-  }
-
-
-  
+  } 
 }
