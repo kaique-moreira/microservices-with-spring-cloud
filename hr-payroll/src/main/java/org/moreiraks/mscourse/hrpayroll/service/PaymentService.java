@@ -3,7 +3,6 @@ package org.moreiraks.mscourse.hrpayroll.service;
 import org.moreiraks.mscourse.hrpayroll.clients.WorkerClient;
 import org.moreiraks.mscourse.hrpayroll.entities.Payment;
 import org.moreiraks.mscourse.hrpayroll.entities.Worker;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
 @Service
